@@ -1,0 +1,25 @@
+{
+  "name": "syslog_udp",
+  "version": "1.0.0",
+  "description": "udp syslogger as a stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bobbor/syslog_udp.git"
+  },
+  "keywords": [
+    "udp",
+    "syslog",
+    "logger",
+    "stream"
+  ],
+  "author": "philipp.and.paul@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bobbor/syslog_udp/issues"
+  },
+  "homepage": "https://github.com/bobbor/syslog_udp#readme"
+}
