@@ -136,7 +136,7 @@ const factory = {
     if (!options.name) {
       options.name = process.title || process.argv.join(' ')
     }
-    const socket = dgram.createSocket('udp4', function (err) {
+    const socket = udp.createSocket('udp4', function (err) {
       if (err) {
         console.error('Error creating socket.', err);
       } else {
